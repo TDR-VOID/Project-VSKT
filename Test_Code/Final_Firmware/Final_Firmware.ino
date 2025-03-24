@@ -8,7 +8,7 @@ const byte TRIAC_PULSE_MICROS = 30;
 const int FADE_MAX = 7000;
 const int FADE_MIN = 10;
 const int looptime = 5;
-int fadeAmount = 10;
+int fadeAmount = 5;
 
 volatile bool triacOn;
 volatile int period = FADE_MIN; // microseconds cut out from AC pulse

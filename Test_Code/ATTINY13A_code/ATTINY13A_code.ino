@@ -1,8 +1,8 @@
 #include <TimerOne.h>
 
 
-const byte INTERRUPT_PIN = 2;
-const byte TRIAC_PIN = 3;
+const byte INTERRUPT_PIN = 0;
+const byte TRIAC_PIN = 1;
 const byte TRIAC_PULSE_MICROS = 30;
 
 const int FADE_MAX = 7000;

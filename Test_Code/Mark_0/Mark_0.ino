@@ -1,7 +1,7 @@
 // --- Basic Test Code Traic
 
 // Define the GPIO pin connected to the TRIAC
-const int triacPin = 7; // You can change this to the desired GPIO pin
+const int triacPin = 3; // You can change this to the desired GPIO pin
 
 void setup() {
   // Set the GPIO pin as output
